@@ -22,6 +22,9 @@ function Home() {
 
   return (
     <section className="w-full flex flex-col md:flex-row-reverse md:items-center md:justify-center h-screen bg-black relative overflow-hidden ">
+      {/* bg gradient */}
+      <div className="top-[-190px] left-[-400px] w-[1103px] h-[1017px] hidden md:flex absolute bg-[radial-gradient(35.19%_35.19%_at_50%_50%,rgba(59,149,255,0.17)_0%,rgba(28,106,197,0)_100%)] overflow-clip "></div>
+
         {/* top slider for small screens */}
         <div className='min-h-[60px] md:hidden flex items-center justify-center p-2'>
           <div className='w-full max-w-[400px] bg-slider-bg h-[3px] rounded-full'> 
