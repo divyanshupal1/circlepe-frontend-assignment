@@ -4,7 +4,7 @@ export const screens = {
         description: <h1 className=' text-description-white'>We make it possible in a quick and easy few steps process, takes max 5 mins</h1>,
         image:'/ss1.png',
         slider: '5%',
-        img_layout:'top-1/2 md:-translate-y-1/2',
+        img_layout:'top-[8%]  md:scale-[1.1]',
     },
     1:{
         title:<span>Step <span className='text-header-white'>1</span></span>,
@@ -14,7 +14,7 @@ export const screens = {
                     </div>,
         image:'/ss1.png',
         slider: '20%',
-        img_layout:'top-1/3 md:scale-[1.5] max-md:scale-[1.3] max-md:translate-y-1/4',
+        img_layout:'top-1/3 md:scale-[1.4] max-md:scale-[1.2] max-md:translate-y-1/4',
         arrow:'top-1/4 right-[80%]'
     },
     2:{
@@ -25,8 +25,8 @@ export const screens = {
                     </div>,
         image: '/ss2.png',
         slider: '30%',
-        img_layout:'top-[20%] md:scale-[1.4]',
-        arrow:'top-[40%] right-[40%]',
+        img_layout:'top-[15%] md:scale-[1.5]',
+        arrow:'top-[38%] right-[48%]',
         arrow_additional :{transform:'rotateX(180deg)'}
     },
     3:{
@@ -41,8 +41,8 @@ export const screens = {
                     </div>,
         image:'/ss3.png',
         slider: '60%',
-        img_layout:'md:-translate-y-[10%] md:scale-[1.4]',
-        arrow:'top-[55%] right-[75%]',
+        img_layout:'md:-translate-y-[21%] md:scale-[1.5]',
+        arrow:'top-[55%] right-[75%] md-scale-[1.1]',
         arrow_additional :{transform:'rotateX(180deg) rotateZ(-40deg)'}
     },
     4:{
@@ -50,8 +50,8 @@ export const screens = {
         description: <h1 className=' text-description-heading'>Smooth Onboarding for the Tenant begins</h1>,
         image:'/ss4.png',
         slider: '80%',
-        img_layout:'top-[5%]',
-        arrow:'top-[52%] right-[70%]',
+        img_layout:'-top-[4%] md:scale-[1.1]',
+        arrow:'top-[52%] right-[70%] ',
         arrow_additional :{transform:'rotateX(180deg) rotateZ(-40deg)'}
     },
     5:{
@@ -65,8 +65,8 @@ export const screens = {
                     </div>,
         image:'/ss5.png',
         slider: '100%',
-        img_layout:'top-[9%]',
-        arrow:'top-[58%] right-[70%]',
+        img_layout:'-top-[1%] md:scale-[1.1]',
+        arrow:'top-[58%] right-[73%] ',
         arrow_additional :{transform:'rotateX(180deg) rotateZ(-40deg)'}
     },
 }
