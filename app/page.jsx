@@ -21,9 +21,7 @@ function Home() {
       if (event.key==' ') {
         if(paused) setPaused(false)
       }
-    });
-
-    if(paused) return;
+    });   
 
     const interval = setInterval(() => {
       setIndex((prev) => {
@@ -33,9 +31,14 @@ function Home() {
         return prev + 1
       })
     }, 2000)
-    return () => clearInterval(interval)
+    if(paused) clearInterval(interval);
 
-  }, [paused])
+    return () => {
+      clearInterval(interval)
+      document.removeEventListener('keydown',()=>{})
+      document.removeEventListener('keyup',()=>{})
+    }
+    }, [paused])
 
   return (
     <section className="w-full flex flex-col md:flex-row-reverse md:items-center md:justify-center h-screen bg-[#1B1B1B] relative overflow-hidden ">
