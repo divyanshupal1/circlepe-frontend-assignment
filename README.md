@@ -45,3 +45,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Deployment
 
 Project is live on vercel  [Go to Deployment 🚀](https://circlepe-frontend-assignment.vercel.app/).
+
+## Accessibility
+
+As the peoject does not contain any interactive elements so there is no need of adding aria roles here, Images are given alt attribute for fallback text when there is issue in loading images.
